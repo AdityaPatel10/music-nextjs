@@ -1,0 +1,25 @@
+{
+  "musicAcademy": [
+    {
+      "title": "Live Instrument Classes",
+      "description": "Learn guitar, piano, drums, and more with live, interactive sessions guided by expert musicians. Our hands-on teaching method helps you build real-world skills in a fun and engaging way.",
+      "image": "/live-instrument-classes.svg"
+    },
+    {
+      "title": "Real-Time Feedback",
+      "description": "Get immediate feedback during practice and assessments. Our instructors monitor your progress and provide personalized suggestions so you can improve faster and more effectively.",
+
+      "image": "/realtime-mentoring.svg"
+    },
+    {
+      "title": "Performance Tracking",
+      "description": "Track your learning journey through regular assessments, progress dashboards, and recorded sessions. Stay motivated and see how far you've come with every note you master.",
+      "image": "/performance-tracking.svg"
+    },
+    {
+      "title": "Collaborative Band Practice",
+      "description": "Join virtual or in-person group sessions to rehearse with fellow students. Learn teamwork, timing, and musical synergy as you prepare for student concerts and live showcases.",
+      "image": "/collaborative-band-practice.svg"
+    }
+  ]
+}

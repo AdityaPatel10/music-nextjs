@@ -1,0 +1,104 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Guitar Fundamentals",
+      "slug": "guitar-fundamentals",
+      "description": "Learn the basics of playing guitar with our comprehensive beginner's course.",
+      "price": 99.99,
+      "instructor": "John Doe",
+      "isFeatured": true,
+      "image": "/guitar.svg"
+    },
+    {
+      "id": 2,
+      "title": "Advanced Vocal Techniques",
+      "slug": "advanced-vocal-techniques",
+      "description": "Enhance your singing with advanced vocal techniques for intermediate to advanced singers.",
+      "price": 129.99,
+      "instructor": "Jane Smith",
+      "isFeatured": true,
+      "image": "/vocal.svg"
+    },
+    {
+      "id": 3,
+      "title": "Music Production Fundamentals",
+      "slug": "music-production-fundamentals",
+      "description": "Dive into music production with this introductory course on the basics of music production, including software and techniques.",
+      "price": 149.99,
+      "instructor": "Mike Johnson",
+      "isFeatured": true,
+      "image": "/music-production.svg"
+    },
+    {
+      "id": 4,
+      "title": "Live Stage Performance",
+      "slug": "live-stage-performance",
+      "description": "Gain confidence and techniques for performing live on stage with energy and presence.",
+      "price": 119.99,
+      "instructor": "Tom Sparks",
+      "isFeatured": true,
+      "image": "/stage.svg"
+    },
+    {
+      "id": 5,
+      "title": "Music Theory Basics",
+      "slug": "music-theory-basics",
+      "description": "Understand scales, chords, and harmonies to build a strong foundation in music theory.",
+      "price": 89.99,
+      "instructor": "Sarah Keys",
+      "isFeatured": false,
+      "image": "/theory.svg"
+    },
+    {
+      "id": 6,
+      "title": "Electronic Music Production",
+      "slug": "electronic-music-production",
+      "description": "Produce EDM and electronic tracks using digital audio workstations and synth plugins.",
+      "price": 159.99,
+      "instructor": "Max Voltage",
+      "isFeatured": true,
+      "image": "/electronic.svg"
+    },
+    {
+      "id": 7,
+      "title": "Songwriting for Beginners",
+      "slug": "songwriting-for-beginners",
+      "description": "Unleash your creativity by learning how to write lyrics and melodies from scratch.",
+      "price": 79.99,
+      "instructor": "Lena Rose",
+      "isFeatured": false,
+      "image": "/songwriting.svg"
+    },
+    {
+      "id": 8,
+      "title": "DJ Mixing Mastery",
+      "slug": "dj-mixing-mastery",
+      "description": "Learn how to mix tracks, use DJ equipment, and create seamless transitions like a pro.",
+      "price": 139.99,
+      "instructor": "DJ Blaze",
+      "isFeatured": true,
+      "image": "/dj.svg"
+    },
+    {
+      "id": 9,
+      "title": "Drumming Essentials",
+      "slug": "drumming-essentials",
+      "description": "Master the basics of drumming, rhythm patterns, and techniques used in modern music.",
+      "price": 109.99,
+      "instructor": "Carlos Beat",
+      "isFeatured": false,
+      "image": "/drums.svg"
+    },
+    {
+      "id": 10,
+      "title": "Piano for Beginners",
+      "slug": "piano-for-beginners",
+      "description": "Start your piano journey with this easy-to-follow course designed for absolute beginners.",
+      "price": 89.99,
+      "instructor": "Emily Turner",
+      "isFeatured": false,
+      "image": "/piano.svg"
+    }
+  ]
+}
