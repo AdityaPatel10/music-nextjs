@@ -21,12 +21,14 @@ function FeaturedCourses() {
     (course: Course) => course.isFeatured
   );
   return (
-    <div className="mt-9 bg-[#0e1422] mb-0 py-10">
-      <div className="flex flex-col items-center">
-        <h6 className="text-[#21877f] font-semibold text-md mt-5">
-          FEATURED COURSES
-        </h6>
-        <h1 className="mt-2 text-4xl">Learn With The Best</h1>
+    <div className="mt-27 bg-[#0e1422] mb-0 py-10">
+      <div className="text-center">
+        <h2 className="text-base text-teal-600 font-semibold tracking-wide uppercase">
+          featured courses
+        </h2>
+        <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">
+          Learn With The Best
+        </p>
       </div>
       <div className="flex flex-wrap space-y-7 mt-9 mx-7 text-center items-center justify-center">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 justify-center gap-7">
@@ -63,15 +65,17 @@ function FeaturedCourses() {
         </div>
       </div>
       <div className="flex justify-center mt-10">
-        {/* <Link href={`/courses`} className="mt-10 mb-10 border p-2 px-3 rounded ">View All Courses</Link> */}
-     
-          <Button
-            borderRadius="1.5rem"
-            className="bg-black dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
+        <Button
+          borderRadius="1.5rem"
+          className="bg-black dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
+        >
+          <Link
+            href={"/courses"}
+            className="h-full w-full flex justify-center items-center"
           >
             View All Courses
-          </Button>
-
+          </Link>
+        </Button>
       </div>
     </div>
   );
