@@ -4,6 +4,7 @@ import courseData from "@/data/music-courses.json";
 import { BackgroundGradient } from "./ui/background-gradient";
 import Link from "next/link";
 import { Button } from "./ui/moving-border";
+import Image from "next/image";
 
 interface Course {
   id: number;
@@ -36,7 +37,7 @@ function FeaturedCourses() {
             <div className="flex justify-center gap-5 mb-9" key={course.id}>
               <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900 h-full">
                 <div className="grid grid-col p-4 sm:p-6 items-center text-center w-auto h-auto">
-                  <img
+                  <Image
                     src={course.image}
                     alt={course.title}
                     height="400"

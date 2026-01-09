@@ -5,7 +5,6 @@ import OurInstructors from "@/components/OurInstructors";
 import TestimonialCards from "@/components/TestimonialCards";
 import Webinars from "@/components/Webinars";
 import WhyChooseUs from "@/components/WhyChooseUs";
-import Image from "next/image";
 
 export default function Home() {
   return (

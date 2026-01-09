@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { StickyScroll } from "./ui/sticky-scroll-reveal";
-import myMusicAcademy from "@/data/why-choose-me.json";
+import Image from "next/image";
 const musicAcademy = [
   {
     title: "Live Instrument Classes",
@@ -9,7 +9,7 @@ const musicAcademy = [
       "Learn guitar, piano, drums, and more with live, interactive sessions guided by expert musicians. Our hands-on teaching method helps you build real-world skills in a fun and engaging way.",
     content: (
       <div className="flex h-full w-full items-center justify-center text-white">
-        <img
+        <Image
           src="/live-instrument-classes.svg"
           width={300}
           height={300}
@@ -25,7 +25,7 @@ const musicAcademy = [
       "Get immediate feedback during practice and assessments. Our instructors monitor your progress and provide personalized suggestions so you can improve faster and more effectively.",
     content: (
       <div className="flex h-full w-full items-center justify-center text-white">
-        <img
+        <Image
           src="/realtime-mentoring.svg"
           width={300}
           height={300}
@@ -41,7 +41,7 @@ const musicAcademy = [
       "Track your learning journey through regular assessments, progress dashboards, and recorded sessions. Stay motivated and see how far you've come with every note you master.",
     content: (
       <div className="flex h-full w-full items-center justify-center text-white">
-        <img
+        <Image
           src="/performance-tracking.svg"
           width={300}
           height={300}
@@ -57,7 +57,7 @@ const musicAcademy = [
       "Join virtual or in-person group sessions to rehearse with fellow students. Learn teamwork, timing, and musical synergy as you prepare for student concerts and live showcases.",
     content: (
       <div className="flex h-full w-full items-center justify-center text-white">
-        <img
+        <Image
           src="/collaborative-band-practice.svg"
           width={300}
           height={300}
